@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "666c484fdaaa6878dc27effa"
+  },
+  "title": "W pustyni i w puszczy",
+  "author": "Henryk Sienkiewicz",
+  "genres": [
+    "przygodowa",
+    "Afryka"
+  ],
+  "rating": 5
+},
+{
+  "_id": {
+    "$oid": "666c4972daaa6878dc27effc"
+  },
+  "title": "Lalka",
+  "author": "Bolesław Prus",
+  "genres": "pozytywizm",
+  "rating": 6,
+  "reviews": "Great book"
+},
+{
+  "_id": {
+    "$oid": "666c4972daaa6878dc27effd"
+  },
+  "title": "Ziemia obiecana",
+  "author": "Wladyslaw Reymont",
+  "genres": "pozytywizm",
+  "rating": 7
+},
+{
+  "_id": {
+    "$oid": "666c52c02b2b59d420cdcdf6"
+  },
+  "title": "Harry Potter i Kamien filozoficzny",
+  "author": "JK Rowling",
+  "genres": [
+    "fantastyczne",
+    "fantasy"
+  ],
+  "rating": 5
+},
+{
+  "_id": {
+    "$oid": "666c54c52b2b59d420cdcdf8"
+  },
+  "title": "Ziemiomorze",
+  "author": "Ursula LeGuin",
+  "genres": [
+    "fantasy",
+    "fantastyczne",
+    "historyczne"
+  ],
+  "rating": 9
+},
+{
+  "_id": {
+    "$oid": "666c54c52b2b59d420cdcdf9"
+  },
+  "title": "Potop",
+  "author": "Henryk Sienkiewicz",
+  "genres": "historyczne",
+  "rating": 7
+},
+{
+  "_id": {
+    "$oid": "666cbbfc1f66ff4ef6cdcdf7"
+  },
+  "title": "Dune",
+  "author": "Frank Herbert",
+  "genres": "ekologia",
+  "reviews": "Great book I like it",
+  "rating": 10
+},
+{
+  "_id": {
+    "$oid": "666d949adb5207a646d4f528"
+  },
+  "title": "The colour of Magic",
+  "author": "Terry Pratchett",
+  "genres": "fantasy",
+  "rating": 8
+}]
