@@ -1,6 +1,6 @@
-import { MongoClient } from "mongodb";
+const { MongoClient } = require ('mongodb');
 
-const uri = "mongodb://localhost:27017/documents";
+const uri = "mongodb://localhost:27017/bookstore";
 
 const client = new MongoClient(uri);
 
@@ -8,24 +8,13 @@ async function run() {
   try {
     
     // Get the database and collection on which to run the operation
-    const database = client.db("sample_mflix");
-    const movies = database.collection("movies");
+    const database = client.db();
+    const books = database.collection("books");
 
-    // Query for a movie that has the title 'The Room'
-    const query = { title: "The Room" };
+    const query = { title: "Dune" };
 
-    const options = {
-      // Sort matched documents in descending order by rating
-      sort: { "imdb.rating": -1 },
-      // Include only the `title` and `imdb` fields in the returned document
-      projection: { _id: 0, title: 1, imdb: 1 },
-    };
-
-    // Execute query
-    const movie = await movies.findOne(query, options);
-
-    // Print the document returned by findOne()
-    console.log(movie);
+    const book = await books.findOne(query);
+    console.log(book);
   } finally {
     await client.close();
   }
